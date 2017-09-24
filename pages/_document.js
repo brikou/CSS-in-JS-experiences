@@ -26,7 +26,7 @@ export default class MyDocument extends Document {
         return (
             <html>
                 <Head>
-                    <title>With Emotion</title>
+                    <title>CSS-in-JS-experiences</title>
                     <style
                         dangerouslySetInnerHTML={{ __html: this.props.css }}
                     />
