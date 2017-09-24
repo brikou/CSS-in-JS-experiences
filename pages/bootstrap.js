@@ -1,9 +1,14 @@
+import { hydrate } from "emotion-server";
 import Head from "next/head";
 
 import "../styles/bootstrap/global";
 import { Navbar } from "../components/Navbar";
 import { Jumbotron } from "../components/Jumbotron";
 import { Container } from "../components/Container";
+
+if (typeof window !== "undefined") {
+    hydrate(window.__NEXT_DATA__.ids);
+}
 
 export default () => (
     <div style={{ paddingTop: "3.5rem" }}>
@@ -13,7 +18,7 @@ export default () => (
                     "initial-scale=1",
                     "shrink-to-fit=no",
                     "width=device-width",
-                ]}
+                ].toString()}
                 name="viewport"
             />
         </Head>
