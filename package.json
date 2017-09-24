@@ -1,11 +1,4 @@
 {
-    "name": "with-emotion",
-    "version": "1.0.0",
-    "scripts": {
-        "dev": "next",
-        "build": "next build",
-        "start": "next start"
-    },
     "dependencies": {
         "babel-plugin-emotion": "^8.0.2-3",
         "emotion": "^8.0.2-4",
@@ -15,5 +8,14 @@
         "react-dom": "^15.6.1",
         "react-emotion": "^8.0.2-3"
     },
-    "license": "ISC"
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "preexport": "npm run-script build",
+        "export": "next export",
+        "predeploy": "npm run-script export",
+        "deploy": "npx netlify deploy",
+        "prestart": "npm run-script export",
+        "start": "cd out && python3 -m http.server"
+    }
 }

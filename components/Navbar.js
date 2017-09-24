@@ -15,7 +15,7 @@ export const Navbar = () => (
     <nav
         className={`${navbar} ${navbarExpandMd} ${navbarDark} ${fixedTop} ${bgDark}`}
     >
-        <a className={navbarBrand} href="#">
+        <a className={navbarBrand} href="/">
             Navbar
         </a>
         <NavbarToggler />
