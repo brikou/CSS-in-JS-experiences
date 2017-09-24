@@ -41,6 +41,11 @@ export const btn = css`
         background-image: none;
     }
 
+    a&.disabled,
+    fieldset[disabled] a& {
+        pointer-events: none;
+    }
+
     & + .dropdown-toggle-split {
         padding-right: 0.5625rem;
         padding-left: 0.5625rem;
@@ -48,6 +53,13 @@ export const btn = css`
 
     & + .dropdown-toggle-split::after {
         margin-left: 0;
+    }
+
+    [data-toggle="buttons"] > & input[type="radio"],
+    [data-toggle="buttons"] > & input[type="checkbox"] {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+        pointer-events: none;
     }
 
     & .${badge} {

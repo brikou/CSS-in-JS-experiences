@@ -51,6 +51,15 @@ export const formControl = css`
         opacity: 1;
     }
 
+    select&:not([size]):not([multiple]) {
+        height: calc(2.25rem + 2px);
+    }
+
+    select&:focus::-ms-value {
+        color: #495057;
+        background-color: #fff;
+    }
+
     &.is-valid {
         border-color: #28a745;
     }

@@ -5,4 +5,8 @@ export const formControlLg = css`
     font-size: 1.25rem;
     line-height: 1.5;
     border-radius: 0.3rem;
+
+    select&:not([size]):not([multiple]) {
+        height: calc(2.3125rem + 2px);
+    }
 `;

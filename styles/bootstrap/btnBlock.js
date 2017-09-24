@@ -7,4 +7,10 @@ export const btnBlock = css`
     & + & {
         margin-top: 0.5rem;
     }
+
+    input[type="submit"]&,
+    input[type="reset"]&,
+    input[type="button"]& {
+        width: 100%;
+    }
 `;

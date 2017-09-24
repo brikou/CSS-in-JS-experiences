@@ -8,4 +8,12 @@ export const collapse = css`
     &.${show} {
         display: block;
     }
+
+    tr&.${show} {
+        display: table-row;
+    }
+
+    tbody&.${show} {
+        display: table-row-group;
+    }
 `;

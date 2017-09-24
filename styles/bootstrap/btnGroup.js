@@ -66,4 +66,10 @@ export const btnGroup = css`
   border-bottom-left-radius: 0;
 }
 
+[data-toggle="buttons"] > & > .${btn} input[type="radio"], [data-toggle="buttons"] > & > .${btn} input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
 `;

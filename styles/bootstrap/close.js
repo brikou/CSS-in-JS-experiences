@@ -15,4 +15,11 @@ export const close = css`
         text-decoration: none;
         opacity: 0.75;
     }
+
+    button& {
+        padding: 0;
+        background: transparent;
+        border: 0;
+        -webkit-appearance: none;
+    }
 `;
