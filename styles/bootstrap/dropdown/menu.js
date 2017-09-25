@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { show } from "./../show";
+import { show } from "../show";
 
 export const dropdownMenu = css`
     position: absolute;

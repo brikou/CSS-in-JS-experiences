@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
-import { formControlLg } from "./../form/control/lg";
-import { formControlSm } from "./../form/control/sm";
+import { formControlLg } from "../form/control/lg";
+import { formControlSm } from "../form/control/sm";
 
 export const inputGroupAddon = css`
     display: -ms-flexbox;

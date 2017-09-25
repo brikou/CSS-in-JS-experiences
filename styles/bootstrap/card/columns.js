@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { card } from "./../card";
+import { card } from "../card";
 
 export const cardColumns = css`
     & .${card} {

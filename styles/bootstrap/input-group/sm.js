@@ -1,8 +1,8 @@
 import { css } from "emotion";
 
-import { btn } from "./../btn";
-import { formControl } from "./../form/control";
-import { formControlPlaintext } from "./../form/control/plaintext";
+import { btn } from "../btn";
+import { formControl } from "../form/control";
+import { formControlPlaintext } from "../form/control/plaintext";
 import { inputGroupAddon } from "./addon";
 import { inputGroupBtn } from "./btn";
 

@@ -1,8 +1,8 @@
 import { css } from "emotion";
 
-import { active } from "./../active";
-import { btn } from "./../btn";
-import { dropdownToggle } from "./../dropdown/toggle";
+import { active } from "../active";
+import { btn } from "../btn";
+import { dropdownToggle } from "../dropdown/toggle";
 
 export const btnGroup = css`
   position: relative;

@@ -1,14 +1,14 @@
 import { css } from "emotion";
 
-import { customControl } from "./../custom/control";
-import { customControlIndicator } from "./../custom/control/indicator";
+import { customControl } from "../custom/control";
+import { customControlIndicator } from "../custom/control/indicator";
 import { formCheck } from "./check";
 import { formCheckInput } from "./check/input";
 import { formCheckLabel } from "./check/label";
 import { formControl } from "./control";
 import { formControlPlaintext } from "./control/plaintext";
 import { formGroup } from "./group";
-import { inputGroup } from "./../input-group";
+import { inputGroup } from "../input-group";
 
 export const formInline = css`
     display: -ms-flexbox;

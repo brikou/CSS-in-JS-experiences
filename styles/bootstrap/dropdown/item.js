@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { active } from "./../active";
+import { active } from "../active";
 
 export const dropdownItem = css`
     display: block;

@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
-import { dropdownMenu } from "./../dropdown/menu";
-import { navLink } from "./../nav/link";
+import { dropdownMenu } from "../dropdown/menu";
+import { navLink } from "../nav/link";
 
 export const navbarNav = css`
     display: -ms-flexbox;

@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
-import { invalidFeedback } from "./../invalid/feedback";
-import { invalidTooltip } from "./../invalid/tooltip";
+import { invalidFeedback } from "../invalid/feedback";
+import { invalidTooltip } from "../invalid/tooltip";
 
 export const customSelect = css`
     &.is-valid {

@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
-import { pageItem } from "./../page/item";
-import { pageLink } from "./../page/link";
+import { pageItem } from "../page/item";
+import { pageLink } from "../page/link";
 
 export const paginationSm = css`
     & .${pageLink} {

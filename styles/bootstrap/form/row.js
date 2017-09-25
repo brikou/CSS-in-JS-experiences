@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { col } from "./../col";
+import { col } from "../col";
 
 export const formRow = css`
     display: -ms-flexbox;

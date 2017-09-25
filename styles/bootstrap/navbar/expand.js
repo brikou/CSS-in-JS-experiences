@@ -1,9 +1,9 @@
 import { css } from "emotion";
 
-import { container } from "./../container";
-import { containerFluid } from "./../container/fluid";
-import { dropdownMenu } from "./../dropdown/menu";
-import { navLink } from "./../nav/link";
+import { container } from "../container";
+import { containerFluid } from "../container/fluid";
+import { dropdownMenu } from "../dropdown/menu";
+import { navLink } from "../nav/link";
 import { navbarCollapse } from "./collapse";
 import { navbarNav } from "./nav";
 import { navbarToggler } from "./toggler";

@@ -1,9 +1,9 @@
 import { css } from "emotion";
 
-import { active } from "./../active";
-import { dropdownMenu } from "./../dropdown/menu";
+import { active } from "../active";
+import { dropdownMenu } from "../dropdown/menu";
 import { navLink } from "./link";
-import { show } from "./../show";
+import { show } from "../show";
 
 export const navTabs = css`
   border-bottom: 1px solid #ddd;

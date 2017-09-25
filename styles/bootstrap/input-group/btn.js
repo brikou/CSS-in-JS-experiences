@@ -1,8 +1,8 @@
 import { css } from "emotion";
 
-import { btn } from "./../btn";
-import { btnGroup } from "./../btn/group";
-import { dropdownToggle } from "./../dropdown/toggle";
+import { btn } from "../btn";
+import { btnGroup } from "../btn/group";
+import { dropdownToggle } from "../dropdown/toggle";
 
 export const inputGroupBtn = css`
     display: -ms-flexbox;

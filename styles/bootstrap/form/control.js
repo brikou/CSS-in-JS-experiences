@@ -1,8 +1,8 @@
 import { css } from "emotion";
 
-import { inputGroupAddon } from "./../input-group/addon";
-import { invalidFeedback } from "./../invalid/feedback";
-import { invalidTooltip } from "./../invalid/tooltip";
+import { inputGroupAddon } from "../input-group/addon";
+import { invalidFeedback } from "../invalid/feedback";
+import { invalidTooltip } from "../invalid/tooltip";
 
 export const formControl = css`
     display: block;

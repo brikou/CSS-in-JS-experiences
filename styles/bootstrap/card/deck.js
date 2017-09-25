@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { card } from "./../card";
+import { card } from "../card";
 
 export const cardDeck = css`
     @media (min-width: 576px) {

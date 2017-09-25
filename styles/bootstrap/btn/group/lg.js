@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { btn } from "./../../btn";
+import { btn } from "../../btn";
 
 export const btnGroupLg = css`
     & > .${btn} {

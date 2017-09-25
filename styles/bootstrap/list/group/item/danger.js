@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { active } from "./../../../active";
+import { active } from "../../../active";
 
 export const listGroupItemDanger = css`
     color: #721c24;

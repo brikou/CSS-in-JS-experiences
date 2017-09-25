@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { card } from "./../card";
+import { card } from "../card";
 import { cardImgBottom } from "./img/bottom";
 import { cardImgTop } from "./img/top";
 

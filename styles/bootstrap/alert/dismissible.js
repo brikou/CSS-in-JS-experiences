@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { close } from "./../close";
+import { close } from "../close";
 
 export const alertDismissible = css`
     & .${close} {

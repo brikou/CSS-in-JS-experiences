@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
-import { fade } from "./../fade";
-import { show } from "./../show";
+import { fade } from "../fade";
+import { show } from "../show";
 
 export const modalBackdrop = css`
     position: fixed;

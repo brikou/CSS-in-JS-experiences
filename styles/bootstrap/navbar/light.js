@@ -1,13 +1,13 @@
 import { css } from "emotion";
 
-import { active } from "./../active";
-import { navLink } from "./../nav/link";
+import { active } from "../active";
+import { navLink } from "../nav/link";
 import { navbarBrand } from "./brand";
 import { navbarNav } from "./nav";
 import { navbarText } from "./text";
 import { navbarToggler } from "./toggler";
 import { navbarTogglerIcon } from "./toggler/icon";
-import { show } from "./../show";
+import { show } from "../show";
 
 export const navbarLight = css`& .${navbarBrand} {
   color: rgba(0, 0, 0, 0.9);

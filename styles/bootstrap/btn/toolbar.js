@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { inputGroup } from "./../input-group";
+import { inputGroup } from "../input-group";
 
 export const btnToolbar = css`
     display: -ms-flexbox;
