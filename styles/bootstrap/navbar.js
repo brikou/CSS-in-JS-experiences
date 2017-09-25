@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
 import { container } from "./container";
-import { containerFluid } from "./containerFluid";
+import { containerFluid } from "./container/fluid";
 
 export const navbar = css`
     @media print {

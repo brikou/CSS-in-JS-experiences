@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
-import { dropdownMenu } from "./dropdownMenu";
-import { dropdownToggle } from "./dropdownToggle";
+import { dropdownMenu } from "./dropdown/menu";
+import { dropdownToggle } from "./dropdown/toggle";
 
 export const dropup = css`
     position: relative;

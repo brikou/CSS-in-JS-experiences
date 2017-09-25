@@ -1,7 +1,7 @@
 import { hydrate } from "emotion-server";
 import Head from "next/head";
 
-import "../styles/bootstrap/global";
+import "../styles/bootstrap";
 import { Navbar } from "../components/Navbar";
 import { Jumbotron } from "../components/Jumbotron";
 import { Container } from "../components/Container";

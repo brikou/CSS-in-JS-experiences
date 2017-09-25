@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
-import { listGroup } from "./listGroup";
-import { listGroupItem } from "./listGroupItem";
+import { listGroup } from "./list/group";
+import { listGroupItem } from "./list/group/item";
 
 export const card = css`
     position: relative;

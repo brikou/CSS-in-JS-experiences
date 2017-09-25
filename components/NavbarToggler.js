@@ -1,6 +1,6 @@
-import { navbarCollapse } from "../styles/bootstrap/navbarCollapse";
-import { navbarToggler } from "../styles/bootstrap/navbarToggler";
-import { navbarTogglerIcon } from "../styles/bootstrap/navbarTogglerIcon";
+import { navbarCollapse } from "../styles/bootstrap/navbar/collapse";
+import { navbarToggler } from "../styles/bootstrap/navbar/toggler";
+import { navbarTogglerIcon } from "../styles/bootstrap/navbar/toggler/icon";
 import { show } from "../styles/bootstrap/show";
 
 export const NavbarToggler = () => (

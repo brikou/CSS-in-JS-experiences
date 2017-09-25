@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
 import { fade } from "./fade";
-import { modalDialog } from "./modalDialog";
+import { modalDialog } from "./modal/dialog";
 import { show } from "./show";
 
 export const modal = css`

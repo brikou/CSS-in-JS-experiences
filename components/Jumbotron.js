@@ -1,8 +1,8 @@
 import { btn } from "../styles/bootstrap/btn";
-import { btnLg } from "../styles/bootstrap/btnLg";
-import { btnPrimary } from "../styles/bootstrap/btnPrimary";
+import { btnLg } from "../styles/bootstrap/btn/lg";
+import { btnPrimary } from "../styles/bootstrap/btn/primary";
 import { container } from "../styles/bootstrap/container";
-import { display3 } from "../styles/bootstrap/display3";
+import { display3 } from "../styles/bootstrap/display/3";
 import { jumbotron } from "../styles/bootstrap/jumbotron";
 
 export const Jumbotron = () => (

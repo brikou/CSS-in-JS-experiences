@@ -1,13 +1,13 @@
 import { active } from "../styles/bootstrap/active";
 import { dropdown } from "../styles/bootstrap/dropdown";
-import { dropdownItem } from "../styles/bootstrap/dropdownItem";
-import { dropdownMenu } from "../styles/bootstrap/dropdownMenu";
-import { dropdownToggle } from "../styles/bootstrap/dropdownToggle";
-import { mrAuto } from "../styles/bootstrap/mrAuto";
-import { navLink } from "../styles/bootstrap/navLink";
-import { navbarNav } from "../styles/bootstrap/navbarNav";
+import { dropdownItem } from "../styles/bootstrap/dropdown/item";
+import { dropdownMenu } from "../styles/bootstrap/dropdown/menu";
+import { dropdownToggle } from "../styles/bootstrap/dropdown/toggle";
+import { mrAuto } from "../styles/bootstrap/mr/auto";
+import { navLink } from "../styles/bootstrap/nav/link";
+import { navbarNav } from "../styles/bootstrap/navbar/nav";
 import { show } from "../styles/bootstrap/show";
-import { srOnly } from "../styles/bootstrap/srOnly";
+import { srOnly } from "../styles/bootstrap/sr-only";
 
 export const NavbarNav = () => (
     <ul className={`${navbarNav} ${mrAuto}`}>

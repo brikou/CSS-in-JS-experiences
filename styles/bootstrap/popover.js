@@ -1,6 +1,6 @@
 import { css } from "emotion";
 
-import { popoverHeader } from "./popoverHeader";
+import { popoverHeader } from "./popover/header";
 
 export const popover = css`
     position: absolute;

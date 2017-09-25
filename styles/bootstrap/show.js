@@ -1,24 +1,24 @@
 import { css } from "emotion";
 
-import { btnDanger } from "./btnDanger";
-import { btnDark } from "./btnDark";
-import { btnInfo } from "./btnInfo";
-import { btnLight } from "./btnLight";
-import { btnOutlineDanger } from "./btnOutlineDanger";
-import { btnOutlineDark } from "./btnOutlineDark";
-import { btnOutlineInfo } from "./btnOutlineInfo";
-import { btnOutlineLight } from "./btnOutlineLight";
-import { btnOutlinePrimary } from "./btnOutlinePrimary";
-import { btnOutlineSecondary } from "./btnOutlineSecondary";
-import { btnOutlineSuccess } from "./btnOutlineSuccess";
-import { btnOutlineWarning } from "./btnOutlineWarning";
-import { btnPrimary } from "./btnPrimary";
-import { btnSecondary } from "./btnSecondary";
-import { btnSuccess } from "./btnSuccess";
-import { btnWarning } from "./btnWarning";
-import { dropdownToggle } from "./dropdownToggle";
-import { navLink } from "./navLink";
-import { navPills } from "./navPills";
+import { btnDanger } from "./btn/danger";
+import { btnDark } from "./btn/dark";
+import { btnInfo } from "./btn/info";
+import { btnLight } from "./btn/light";
+import { btnOutlineDanger } from "./btn/outline/danger";
+import { btnOutlineDark } from "./btn/outline/dark";
+import { btnOutlineInfo } from "./btn/outline/info";
+import { btnOutlineLight } from "./btn/outline/light";
+import { btnOutlinePrimary } from "./btn/outline/primary";
+import { btnOutlineSecondary } from "./btn/outline/secondary";
+import { btnOutlineSuccess } from "./btn/outline/success";
+import { btnOutlineWarning } from "./btn/outline/warning";
+import { btnPrimary } from "./btn/primary";
+import { btnSecondary } from "./btn/secondary";
+import { btnSuccess } from "./btn/success";
+import { btnWarning } from "./btn/warning";
+import { dropdownToggle } from "./dropdown/toggle";
+import { navLink } from "./nav/link";
+import { navPills } from "./nav/pills";
 
 export const show = css`& > .${btnPrimary}.${dropdownToggle} {
   background-color: #0069d9;
