@@ -6,6 +6,6 @@ export const blockquoteFooter = css`
     color: #868e96;
 
     &::before {
-        content: "\2014 \00A0";
+        content: "\\2014 \\00A0";
     }
 `;

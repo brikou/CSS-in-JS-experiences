@@ -1,6 +1,6 @@
 import { injectGlobal } from "emotion";
 
-injectGlobal`
+export default () => injectGlobal`
     /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
