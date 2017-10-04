@@ -1,14 +1,9 @@
-import { btn } from "../styles/bootstrap/btn";
-import { btnLg } from "../styles/bootstrap/btn/lg";
-import { btnPrimary } from "../styles/bootstrap/btn/primary";
-import { container } from "../styles/bootstrap/container";
-import { display3 } from "../styles/bootstrap/display/3";
-import { jumbotron } from "../styles/bootstrap/jumbotron";
+import * as styles from "../styles/bootstrap.js";
 
 export const Jumbotron = () => (
-    <div className={jumbotron}>
-        <div className={container}>
-            <h1 className={display3}>Hello, world!</h1>
+    <div className={styles.jumbotron()}>
+        <div className={styles.container()}>
+            <h1 className={styles.display3()}>Hello, world!</h1>
             <p>
                 This is a template for a simple marketing or informational
                 website. It includes a large callout called a jumbotron and
@@ -17,7 +12,7 @@ export const Jumbotron = () => (
             </p>
             <p>
                 <a
-                    className={`${btn} ${btnPrimary} ${btnLg}`}
+                    className={`${styles.btn()} ${styles.btnPrimary()} ${styles.btnLg()}`}
                     href="#"
                     role="button"
                 >
