@@ -1,15 +1,20 @@
-import * as styles from "../styles/bootstrap.js";
+import {
+    navbarCollapse,
+    navbarToggler,
+    navbarTogglerIcon,
+    show,
+} from "../styles/bootstrap.js";
 
 export const NavbarToggler = () => (
     <button
-        className={styles.navbarToggler()}
+        className={navbarToggler}
         onClick={() => {
             document
-                .getElementsByClassName(styles.navbarCollapse())[0]
-                .classList.toggle(styles.show());
+                .getElementsByClassName(navbarCollapse)[0]
+                .classList.toggle(show);
         }}
         type="button"
     >
-        <span className={styles.navbarTogglerIcon()} />
+        <span className={navbarTogglerIcon} />
     </button>
 );

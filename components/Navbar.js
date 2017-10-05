@@ -1,17 +1,26 @@
 import { FormInline } from "./FormInline";
 import { NavbarNav } from "./NavbarNav";
 import { NavbarToggler } from "./NavbarToggler";
-import * as styles from "../styles/bootstrap.js";
+import {
+    bgDark,
+    collapse,
+    fixedTop,
+    navbar,
+    navbarBrand,
+    navbarCollapse,
+    navbarDark,
+    navbarExpandMd,
+} from "../styles/bootstrap.js";
 
 export const Navbar = () => (
     <nav
-        className={`${styles.navbar()} ${styles.navbarExpandMd()} ${styles.navbarDark()} ${styles.fixedTop()} ${styles.bgDark()}`}
+        className={`${navbar} ${navbarExpandMd} ${navbarDark} ${fixedTop} ${bgDark}`}
     >
-        <a className={styles.navbarBrand()} href="/">
+        <a className={navbarBrand} href="/">
             Navbar
         </a>
         <NavbarToggler />
-        <div className={`${styles.collapse()} ${styles.navbarCollapse()}`}>
+        <div className={`${collapse} ${navbarCollapse}`}>
             <NavbarNav />
             <FormInline />
         </div>

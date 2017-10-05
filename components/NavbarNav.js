@@ -1,45 +1,56 @@
-import * as styles from "../styles/bootstrap.js";
+import {
+    active,
+    dropdown,
+    dropdownItem,
+    dropdownMenu,
+    dropdownToggle,
+    mrAuto,
+    navLink,
+    navbarNav,
+    show,
+    srOnly,
+} from "../styles/bootstrap.js";
 
 export const NavbarNav = () => (
-    <ul className={`${styles.navbarNav()} ${styles.mrAuto()}`}>
-        <li className={`nav-item ${styles.active()}`}>
-            <a className={styles.navLink()} href="#">
-                Home <span className={`${styles.srOnly()}`}>(current)</span>
+    <ul className={`${navbarNav} ${mrAuto}`}>
+        <li className={`nav-item ${active}`}>
+            <a className={navLink} href="#">
+                Home <span className={`${srOnly}`}>(current)</span>
             </a>
         </li>
         <li className="nav-item">
-            <a className={styles.navLink()} href="#">
+            <a className={navLink} href="#">
                 Link
             </a>
         </li>
         <li className="nav-item">
-            <a className={`${styles.navLink()} disabled`} href="#">
+            <a className={`${navLink} disabled`} href="#">
                 Disabled
             </a>
         </li>
-        <li className={`nav-item ${styles.dropdown()}`}>
+        <li className={`nav-item ${dropdown}`}>
             <a
-                className={`${styles.navLink()} ${styles.dropdownToggle()}`}
+                className={`${navLink} ${dropdownToggle}`}
                 href="#"
                 onClick={() => {
                     document
-                        .getElementsByClassName(styles.dropdown())[0]
-                        .classList.toggle(styles.show());
+                        .getElementsByClassName(dropdown)[0]
+                        .classList.toggle(show);
                     document
-                        .getElementsByClassName(styles.dropdownMenu())[0]
-                        .classList.toggle(styles.show());
+                        .getElementsByClassName(dropdownMenu)[0]
+                        .classList.toggle(show);
                 }}
             >
                 Dropdown
             </a>
-            <div className={styles.dropdownMenu()}>
-                <a className={styles.dropdownItem()} href="#">
+            <div className={dropdownMenu}>
+                <a className={dropdownItem} href="#">
                     Action
                 </a>
-                <a className={styles.dropdownItem()} href="#">
+                <a className={dropdownItem} href="#">
                     Another action
                 </a>
-                <a className={styles.dropdownItem()} href="#">
+                <a className={dropdownItem} href="#">
                     Something else here
                 </a>
             </div>

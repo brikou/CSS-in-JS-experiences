@@ -1,10 +1,16 @@
-import * as styles from "../styles/bootstrap.js";
+import {
+    btn,
+    btnSecondary,
+    colMd4,
+    container,
+    row,
+} from "../styles/bootstrap.js";
 
 export const Container = () => (
-    <div className={styles.container()}>
-        <div className={styles.row()}>
+    <div className={container}>
+        <div className={row}>
             {[...Array(3)].map((_, key) => (
-                <div key={key} className={styles.colMd4()}>
+                <div key={key} className={colMd4}>
                     <h2>Heading</h2>
                     <p>
                         Donec id elit non mi porta gravida at eget metus. Fusce
@@ -15,7 +21,7 @@ export const Container = () => (
                     </p>
                     <p>
                         <a
-                            className={`${styles.btn()} ${styles.btnSecondary()}`}
+                            className={`${btn} ${btnSecondary}`}
                             href="#"
                             role="button"
                         >

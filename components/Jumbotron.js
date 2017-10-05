@@ -1,9 +1,16 @@
-import * as styles from "../styles/bootstrap.js";
+import {
+    btn,
+    btnLg,
+    btnPrimary,
+    container,
+    display3,
+    jumbotron,
+} from "../styles/bootstrap.js";
 
 export const Jumbotron = () => (
-    <div className={styles.jumbotron()}>
-        <div className={styles.container()}>
-            <h1 className={styles.display3()}>Hello, world!</h1>
+    <div className={jumbotron}>
+        <div className={container}>
+            <h1 className={display3}>Hello, world!</h1>
             <p>
                 This is a template for a simple marketing or informational
                 website. It includes a large callout called a jumbotron and
@@ -12,7 +19,7 @@ export const Jumbotron = () => (
             </p>
             <p>
                 <a
-                    className={`${styles.btn()} ${styles.btnPrimary()} ${styles.btnLg()}`}
+                    className={`${btn} ${btnPrimary} ${btnLg}`}
                     href="#"
                     role="button"
                 >
