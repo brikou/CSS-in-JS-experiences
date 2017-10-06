@@ -1,8 +1,10 @@
-import { btn } from "../styles/bootstrap/btn";
-import { btnSecondary } from "../styles/bootstrap/btn/secondary";
-import { colMd4 } from "../styles/bootstrap/col/md/4";
-import { container } from "../styles/bootstrap/container";
-import { row } from "../styles/bootstrap/row";
+import {
+    btn,
+    btnSecondary,
+    colMd4,
+    container,
+    row,
+} from "../styles/bootstrap.js";
 
 export const Container = () => (
     <div className={container}>

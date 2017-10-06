@@ -1,9 +1,11 @@
-import { btn } from "../styles/bootstrap/btn";
-import { btnLg } from "../styles/bootstrap/btn/lg";
-import { btnPrimary } from "../styles/bootstrap/btn/primary";
-import { container } from "../styles/bootstrap/container";
-import { display3 } from "../styles/bootstrap/display/3";
-import { jumbotron } from "../styles/bootstrap/jumbotron";
+import {
+    btn,
+    btnLg,
+    btnPrimary,
+    container,
+    display3,
+    jumbotron,
+} from "../styles/bootstrap.js";
 
 export const Jumbotron = () => (
     <div className={jumbotron}>

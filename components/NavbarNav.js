@@ -1,13 +1,15 @@
-import { active } from "../styles/bootstrap/active";
-import { dropdown } from "../styles/bootstrap/dropdown";
-import { dropdownItem } from "../styles/bootstrap/dropdown/item";
-import { dropdownMenu } from "../styles/bootstrap/dropdown/menu";
-import { dropdownToggle } from "../styles/bootstrap/dropdown/toggle";
-import { mrAuto } from "../styles/bootstrap/mr/auto";
-import { navLink } from "../styles/bootstrap/nav/link";
-import { navbarNav } from "../styles/bootstrap/navbar/nav";
-import { show } from "../styles/bootstrap/show";
-import { srOnly } from "../styles/bootstrap/sr-only";
+import {
+    active,
+    dropdown,
+    dropdownItem,
+    dropdownMenu,
+    dropdownToggle,
+    mrAuto,
+    navLink,
+    navbarNav,
+    show,
+    srOnly,
+} from "../styles/bootstrap.js";
 
 export const NavbarNav = () => (
     <ul className={`${navbarNav} ${mrAuto}`}>
