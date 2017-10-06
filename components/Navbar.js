@@ -15,6 +15,7 @@ import {
 export const Navbar = () => (
     <nav
         className={`${navbar} ${navbarExpandMd} ${navbarDark} ${fixedTop} ${bgDark}`}
+        style={{ position: "fixed" }}
     >
         <a className={navbarBrand} href="/">
             Navbar
